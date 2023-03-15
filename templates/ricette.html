@@ -11,13 +11,13 @@
     <h1><span class="yellow">Cucina d'italia</pan></h1><br><br><br><br>
         <center>
             <img src="{{url_for('static', filename='img/CosceDiPolloGratinate.png')}}">
-                <h2>Cosce Di Pollo Gratinate</h2>
+                <a href="{{ url_for('CosceDiPolloGratinate')}}"><h2>Cosce Di Pollo Gratinate</h2></a>
             <img src="{{url_for('static', filename='img/MedaglioniDiFormaggio.png')}}">
-                <h2>Medaglioni Di Formaggio</h2>
+                <a href="{{ url_for('MedaglioniDiFormaggio')}}"><h2>Medaglioni Di Formaggio</h2></a>
             <img src="{{url_for('static', filename='img/platessaPanata.png')}}">
-                <h2>platessa Panata</h2>
+                <a href="{{ url_for('platessaPanata')}}"><h2>platessa Panata</h2></a>
             <img src="{{url_for('static', filename='img/PolpetteDiCarne.png')}}">
-                <h2>Polpette Di Carne</h2>
+                <a href="{{ url_for('PolpetteDiCarne')}}"><h2>Polpette Di Carne</h2></a>
         </center>
 </body>
 </html>
