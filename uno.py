@@ -6,20 +6,20 @@ def ricetteHomeuno():
     return render_template('./ricette.html')
 
 @app.route('/CosceDiPolloGratinate', methods=['GET'])
-def CosceDiPolloGratinate():
-    return render_template('./CosceDiPolloGratinate.html')
+def CosceDiPolloGratinate(niam):
+    return render_template('./CosceDiPolloGratinate.html',testo="E ora di preparare il pranzo!")
 
 @app.route('/MedaglioniDiFormaggio', methods=['GET'])
-def MedaglioniDiFormaggio():
-    return render_template('./MedaglioniDiFormaggio.html')
+def MedaglioniDiFormaggio(niam):
+    return render_template('./MedaglioniDiFormaggio.html',testo="E ora di preparare il pranzo!")
 
 @app.route('/platessaPanata', methods=['GET'])
-def platessaPanata():
-    return render_template('./platessaPanata.html')
+def platessaPanata(niam):
+    return render_template('./platessaPanata.html',testo="E ora di preparare il pranzo!")
 
 @app.route('/PolpetteDiCarne', methods=['GET'])
-def PolpetteDiCarne():
-    return render_template('./PolpetteDiCarne.html')
+def PolpetteDiCarne(niam):
+    return render_template('./PolpetteDiCarne.html',testo="E ora di preparare il pranzo!")
 
 
 if __name__ == '__main__':
